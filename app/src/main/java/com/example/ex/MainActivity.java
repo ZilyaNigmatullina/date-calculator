@@ -102,7 +102,6 @@ public class MainActivity extends AppCompatActivity {
 
 
                     long diff = endDate - startDate;
-                    //long days = diff / (24 * 60 * 60 * 1000);
 
                     int days = (int) Math.abs(Math.floor(diff / 86400000));
                     int months = (int) Math.abs(Math.floor(days / 30));
